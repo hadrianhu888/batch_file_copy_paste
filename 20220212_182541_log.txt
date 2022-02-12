@@ -1,0 +1,14 @@
+C:\Users\lordx\Desktop\batch_file_copy_paste
+ECHO is off.
+ECHO is off.
+ECHO is off.
+ECHO is off.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt1.txt, Delete (Y/N)? 

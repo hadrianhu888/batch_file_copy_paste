@@ -54,11 +54,13 @@ print "\nSeconds with Microseconds: $sec\n\n";
 print "\nSeconds: $seconds\n\n";
 print "\nmsec: $microsec\n\n";
 
-# new date_time format in YYYYMMDD_HHMMSS
+# new date_time format in YYYYMMDD_HHMMSS style
 
 $new_date_format = join("",$year,$month,$day); 
 $new_time_format = join("",$hour,$min,$seconds);
 $new_date_time_format = join("_", $new_date_format, $new_time_format);
+
+# print out the new date and time format
 
 print "\n$new_date_format\n\n"; 
 print "\n$new_time_format\n\n"; 
@@ -71,3 +73,4 @@ my $new_file_name = "$new_date_time_format\_log.txt";
 rename($old_file_name, $new_file_name) || die "Unable to rename text file!\n\n";
 
 unlink($date_time) || die "Unable to delete $date_time\n\n";
+
