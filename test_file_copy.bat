@@ -1,3 +1,10 @@
+@echo off
+set LOGFILE=test_log.txt
+call :LOG > %LOGFILE%
+exit /B
+
+:LOG
+
 echo %CD%
 set DIR_0 = %CD%/dir0
 set DIR_1 = %CD%/dir1
