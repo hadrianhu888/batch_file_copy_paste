@@ -1,4 +1,4 @@
 echo on
 set LOGS = %CD%\logs
-move %CD%\*log.txt %LOGS%
+copy /y %CD%\*.txt %LOGS%
 echo off

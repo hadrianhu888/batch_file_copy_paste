@@ -1,0 +1,127 @@
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo 2022-02-13 12:21:59.79  
+2022-02-13 12:21:59.79 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo C:\Users\lordx\Desktop\batch_file_copy_paste 
+C:\Users\lordx\Desktop\batch_file_copy_paste
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set MAIN_PATH = c:\Users\lordx\Desktop\batch_file_copy_paste\batch_file_copy_paste 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set LOGS =  c:\Users\lordx\Desktop\batch_file_copy_paste\logs 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_0 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir0 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_1 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir1 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_2 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir2 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_3 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir3 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt0.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt1.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt2.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt1.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt0.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt2.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt1.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt0.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>move \date_time.txt C:\Users\lordx\Desktop\batch_file_copy_paste 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo 2022-02-13 12:21:59.80 
+2022-02-13 12:21:59.80
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>del tempCodeRunnerFile.bat 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>cd  
+C:\Users\lordx\Desktop\batch_file_copy_paste
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>del /p /a \txt1.txt  
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>cd C:\Users\lordx\Desktop\batch_file_copy_paste 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DateTime = 2022-02-13 12:21:59.81 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo 2022-02-13 12:21:59.81  1>C:\Users\lordx\Desktop\batch_file_copy_paste\date_time.txt 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>call  get_time_date.pl  
+File date_time.txt opened successfully!
+2022-02-13 12:21:59.81 
+
+The date and time data are 2022-02-13 12:21:59.81 
+
+
+Date: 2022-02-13
+
+
+Time: 12:21:59.81 
+
+
+Year: 2022
+
+
+Month: 02
+
+
+Day: 13
+
+
+Hour: 12
+
+
+Minute: 21
+
+
+Seconds with Microseconds: 59.81 
+
+
+Seconds: 59
+
+
+msec: 81 
+
+
+20220213
+
+
+122159
+
+
+20220213_122159
+
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>cd C:\Users\lordx\Desktop\batch_file_copy_paste 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\*.txt  
+C:\Users\lordx\Desktop\batch_file_copy_paste\20220213_122047_log.txt
+The file cannot be copied onto itself.
+        0 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo off 
