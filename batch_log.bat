@@ -6,6 +6,8 @@ exit /B
 
 :LOG
 
+echo %date% %time% 
+
 echo %CD%
 set DIR_0 = %CD%/dir0
 set DIR_1 = %CD%/dir1
@@ -38,6 +40,6 @@ set DateTime = %date% %time%
 echo %date% %time% > %CD%\date_time.txt
 
 cd /d %PERL% 
-call get_time_date.pl
+call get_time_date
 
 echo off
