@@ -1,0 +1,15 @@
+2022-02-12 22:35:32.61 
+C:\Users\lordx\Desktop\batch_file_copy_paste
+ECHO is off.
+ECHO is off.
+ECHO is off.
+ECHO is off.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) moved.

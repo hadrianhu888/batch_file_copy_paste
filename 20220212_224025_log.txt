@@ -1,0 +1,71 @@
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo 2022-02-12 22:41:02.93  
+2022-02-12 22:41:02.93 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo C:\Users\lordx\Desktop\batch_file_copy_paste 
+C:\Users\lordx\Desktop\batch_file_copy_paste
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set MAIN_PATH = C:\Users\lordx\Desktop\batch_file_copy_paste 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_0 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir0 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_1 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir1 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_2 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir2 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>set DIR_3 = C:\Users\lordx\Desktop\batch_file_copy_paste\dir3 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>echo  
+ECHO is on.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y \txt0.txt  
+The system cannot find the file specified.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir1\txt1.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir0 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir2\txt2.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir1 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir1\txt1.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir2 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\txt0.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir2 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir2\txt2.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir3 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir1\txt1.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir3 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>copy /y C:\Users\lordx\Desktop\batch_file_copy_paste\dir2\txt0.txt C:\Users\lordx\Desktop\batch_file_copy_paste\dir3 
+        1 file(s) copied.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>move C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\date_time.txt C:\Users\lordx\Desktop\batch_file_copy_paste 
+        1 file(s) moved.
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>del tempCodeRunnerFile.bat 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste>cd C:\Users\lordx\Desktop\batch_file_copy_paste\dir0 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>del /p /a C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\dir0\txt1.txt  
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>cd C:\Users\lordx\Desktop\batch_file_copy_paste\dir0 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>set DateTime = 2022-02-12 22:41:02.97 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>echo 2022-02-12 22:41:02.97  1>C:\Users\lordx\Desktop\batch_file_copy_paste\dir0\date_time.txt 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>call get_time_date.pl 
+
+C:\Users\lordx\Desktop\batch_file_copy_paste\dir0>echo off 
