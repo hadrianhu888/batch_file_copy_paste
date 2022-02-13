@@ -12,6 +12,7 @@ echo %date% %time%
 
 echo %CD%
 set MAIN_PATH = %~dp0batch_file_copy_paste
+set LOGS =  %~dp0logs
 set DIR_0 = %CD%\dir0
 set DIR_1 = %CD%\dir1
 set DIR_2 = %CD%\dir2
@@ -46,6 +47,8 @@ cd %CD%
 set DateTime = %date% %time%
 echo %date% %time% > %CD%\date_time.txt
 
-call get_time_date.pl
+call %PERL% get_time_date.pl
+
+move %CD%\*.txt %LOGS%
 
 echo off
