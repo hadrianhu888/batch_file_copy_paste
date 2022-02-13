@@ -11,7 +11,7 @@ echo on
 echo %date% %time% 
 
 echo %CD%
-set MAIN_PATH = %CD%
+set MAIN_PATH = %~dp0batch_file_copy_paste
 set DIR_0 = %CD%\dir0
 set DIR_1 = %CD%\dir1
 set DIR_2 = %CD%\dir2
